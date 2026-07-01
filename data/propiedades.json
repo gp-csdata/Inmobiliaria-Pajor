@@ -13,12 +13,12 @@
     "sup_cubierta": "45 m2",
     "antiguedad": "10 años",
     "descripcion": "Departamento con estar comedor, cocina, 2 dormitorios, lavadero y 1 baño.",
-
+    "cocina_separada":true,
+    "interno":true,
+    "apto_vivienda":true,
     "patio":true,
     "balcon":true,
     "apto_mascotas":true,
-    "laundry":true,
-    "apto_credito":true,
     "imagenes": [
       "img/prop001/00.jpg",
       "img/prop001/01.jpg",
@@ -47,6 +47,8 @@
     "banos": "",
     "sup_total": "3600 m2",
     "sup_cubierta": "",
+    "apto credito":true,
+    "escriturado":true,
     "descripcion": "Espectacular terreno de 30 metros x 120 metros, con medianeras constituídas. Impuestos y papeles al día.",
     "imagenes": [
     "img/prop013/00.png"
@@ -64,6 +66,15 @@
     "banos": 2,
     "sup_total": "600 m2",
     "sup_cubierta": "",
+    "patio":true,
+    "apto credito":true,
+    "apto_vivienda":true,
+    "apto_mascotas":true,
+    "escriturado":true,
+    "cochera":true,
+    "arboleda":true,
+    "galeria":true,
+    "parrilla cubierta":true,
     "descripcion": "Casa de 2 dormitorios, baño, cocina, estar comedor, lavadero, galería y pileta. Lote en esquina, construcción con retiro de medianeras.",
     "imagenes": [
       "img/prop002/00.jpg",
@@ -89,6 +100,12 @@
     "banos": 1,
     "sup_total": "",
     "sup_cubierta": "",
+    "cocina_separada":true,
+    "espacio para auto":true,
+    "patio": true,
+    "apto credito":true,
+    "apto_mascotas":true,
+    "apto_vivienda":true,
     "descripcion": "Casa de 3 dormitorios, baño, cocina, estar, comedor, lavadero y paso de auto. ",
     "imagenes": [
       "img/prop003/00.jpeg"
@@ -107,6 +124,11 @@
     "banos": 1,
     "sup_total": "",
     "sup_cubierta": "",
+    "frente":true,
+    "cocina_separada":true,
+    "apto_vivienda":true,
+    "balcon":true,
+    "cochera":true,
     "descripcion": "Departamento con cocina, living, baño, cochera y un dormitorio. Con cochera. Alquiler $550.000 mas impuestos y mas expensas.",
     "imagenes": [
       "img/prop004/00.jpeg",
@@ -145,6 +167,12 @@
     "banos": 1,
     "sup_total": "",
     "sup_cubierta": "",
+    "apto credito":true,
+    "apto_vivienda":true,
+    "cocina_separada":true,
+    "cochera":true,
+    "galeria":true,
+    "parrilla cubierta":true,
     "descripcion": "3 dormitorios, estar, comedor, cocina, baño y patio.",
     "imagenes": [
       "img/prop006/00.jpg",
@@ -163,6 +191,13 @@
     "banos": 1,
     "sup_total": "",
     "sup_cubierta": "",
+    "apto credito":true,
+    "apto_vivienda":true,
+    "apto_mascotas":true,
+    "cocina_separada":true,
+    "cochera":true,
+    "galeria":true,
+    "parrilla cubierta":true,
     "descripcion": "Casa en Barrio Rucci, con 3 dormitorios, estar, comedor, cocina, baño y patio.",
     "imagenes": [
       "img/prop007/00.jpg"
@@ -181,6 +216,10 @@
     "sup_total": "10.000 m2",
     "sup_cubierta": "780 m2",
     "antiguedad": "28 años",
+    "frente":true,
+    "patio":true,
+    "apto_vivienda":true,
+    "apto_mascotas":true,
     "descripcion": "Casa con estar comedor, cocina comedor, 3 dormitorios, patio cerrado y patio abierto, lavadero y 2 baños.",
     "imagenes": [
       "img/prop010/00.jpg"
@@ -198,7 +237,13 @@
     "banos": 2,
     "sup_total": "m2",
     "sup_cubierta": "m2",
-    "antiguedad": "",
+    "apto credito":true,
+    "apto_vivienda":true,
+    "cochera":true,
+    "cocina_separada":true,
+    "galeria":true,
+    "parrilla cubierta":true,
+    "quincho":true,
     "descripcion": "Casa con estar comedor, cocina, 3 dormitorios, lavadero y baño. Patio y cochera, amplio quincho con parrillero cubierto y baño de servicio. Apto crédito.",
     "imagenes": [
       "img/prop012/00.jpeg"
