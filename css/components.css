@@ -1,0 +1,260 @@
+/* ======================================================
+   TARJETAS CON ANIMACIÓN
+====================================================== */
+
+.card-animada{
+
+    background:var(--color-blanco);
+
+    border-radius:12px;
+
+    padding:30px;
+
+    border:1px solid transparent;
+
+    box-shadow:var(--shadow-card);
+
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+
+    cursor:pointer;
+
+    transition:all .35s ease;
+}
+
+.card-animada:hover{
+
+    transform:translateY(-8px);
+
+    border-color:var(--color-principal);
+
+    box-shadow:var(--shadow-hover);
+}
+
+.card-animada:hover .icon-box{
+
+    background:var(--color-principal);
+
+    color:white;
+}
+
+
+/* ======================================================
+   ICONOS
+====================================================== */
+
+.icon-box{
+
+    width:50px;
+    height:50px;
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    margin-bottom:20px;
+
+    background:var(--color-fondo);
+
+    border-radius:8px;
+
+    color:var(--color-gris);
+
+    transition:all .35s ease;
+}
+
+
+/* ======================================================
+   HEADER GENERAL
+====================================================== */
+
+header{
+
+    background:var(--color-blanco);
+
+    padding:10px 50px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    border-bottom:1px solid #eee;
+}
+
+
+/* ======================================================
+   LOGO NUEVO (IMAGEN)
+====================================================== */
+
+.logo-container{
+
+    display:flex;
+
+    align-items:center;
+
+    cursor:pointer;
+
+    user-select:none;
+
+    transition:.35s;
+}
+
+.logo-container:hover{
+
+    transform:scale(1.03);
+}
+
+.logo-container img{
+
+    height:80px;
+    width:auto;
+
+    display:block;
+
+    transition:.35s;
+}
+
+
+
+/* ======================================================
+   MENÚ
+====================================================== */
+
+nav{
+
+display:flex;
+
+gap:20px;
+}
+
+nav a{
+
+text-decoration:none;
+
+color:var(--color-gris);
+
+transition:.3s;
+}
+
+nav a:hover{
+
+color:var(--color-principal);
+
+}
+
+.active-link{
+
+color:var(--color-principal);
+
+font-weight:bold;
+}
+
+
+
+/* ======================================================
+   BOTÓN WHATSAPP FLOTANTE
+====================================================== */
+
+.whatsapp-float{
+
+    position:fixed;
+
+    right:25px;
+    bottom:25px;
+
+    width:60px;
+    height:60px;
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    background:#25D366;
+
+    border-radius:50%;
+
+    text-decoration:none;
+
+    z-index:9999;
+
+    box-shadow:
+    0 4px 15px rgba(37,211,102,.4);
+
+    transition:all .35s ease;
+}
+
+
+.whatsapp-float svg{
+
+    width:34px;
+    height:34px;
+
+    fill:white;
+}
+
+.whatsapp-float:hover{
+
+    transform:
+    scale(1.1)
+    translateY(-3px);
+
+    background:#20ba5a;
+
+    box-shadow:
+    0 8px 25px rgba(37,211,102,.6);
+}
+
+
+
+/* ======================================================
+   RESPONSIVE
+====================================================== */
+
+@media(max-width:768px){
+
+header{
+
+flex-direction:column;
+
+padding:15px;
+
+gap:15px;
+
+}
+
+.logo-container img{
+
+height:60px;
+
+}
+
+nav{
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+gap:15px;
+
+}
+
+.whatsapp-float{
+
+width:55px;
+height:55px;
+
+}
+
+.whatsapp-float svg{
+
+width:30px;
+height:30px;
+
+}
+
+}

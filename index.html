@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inmobiliaria Pajor | María Soledad Pajor</title>
+<link rel="icon" href="img/ico2.png" type="image/png">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/variables.css">
+<link rel="stylesheet" href="css/components.css">
+<script src="https://unpkg.com/lucide@latest"></script>
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Montserrat',sans-serif;
+}
+
+/* ================= HEADER ================= */
+header{
+background:white;
+padding:10px 50px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+border-bottom:1px solid #eee;
+position:sticky;
+top:0;
+z-index:999;
+}
+
+.logo-container{
+display:flex;
+align-items:center;
+cursor:pointer;
+}
+
+.logo-container img{
+height:80px;
+transition:.3s;
+}
+
+.logo-container img:hover{
+transform:scale(1.03);
+}
+
+nav{
+display:flex;
+gap:25px;
+}
+
+nav a{
+text-decoration:none;
+color:var(--color-gris);
+font-size:14px;
+transition:.3s;
+}
+
+nav a:hover{
+color:var(--color-principal);
+}
+
+.active-link{
+color:var(--color-principal);
+font-weight:bold;
+}
+
+/* ================= HERO ================= */
+.hero-section{
+background:
+linear-gradient(
+rgba(0,0,0,.45),
+rgba(0,0,0,.45)
+),
+url('img/SN-fondo.png');
+
+background-position:center;
+background-size:cover;
+background-repeat:no-repeat;
+min-height:650px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+padding:0 20px;
+text-align:center;
+color:white;
+}
+
+.hero-title{
+font-size:56px;
+line-height:1.2;
+max-width:900px;
+margin-bottom:25px;
+}
+
+.hero-subtitle{
+font-size:18px;
+max-width:750px;
+line-height:1.7;
+margin-bottom:35px;
+opacity:.95;
+}
+
+.btn-cta{
+background:var(--color-principal);
+padding:16px 30px;
+border-radius:6px;
+text-decoration:none;
+font-size:14px;
+font-weight:bold;
+color:white;
+transition:.3s;
+}
+
+.btn-cta:hover{
+transform:translateY(-3px);
+}
+
+/* ================= SERVICIOS ================= */
+.services-section{
+max-width:1200px;
+margin:80px auto;
+padding:0 20px;
+text-align:center;
+}
+
+.section-title{
+font-size:34px;
+margin-bottom:10px;
+color:var(--color-gris);
+}
+
+.section-subtitle{
+font-size:15px;
+color:#777;
+margin-bottom:45px;
+}
+
+.home-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+
+.home-card{
+text-decoration:none;
+color:inherit;
+}
+
+.card-animada{
+background:white;
+padding:30px;
+border-radius:10px;
+border:1px solid #eee;
+box-shadow:var(--shadow-card);
+position:relative;
+overflow:hidden;
+transition:
+transform .45s ease,
+box-shadow .45s ease,
+border-color .45s ease;
+}
+
+.card-animada:hover{
+transform:translateY(-8px);
+box-shadow:
+0 15px 35px rgba(0,0,0,.08);
+border-color:
+rgba(180,20,20,.20);
+}
+
+.icon-box{
+display:inline-flex;
+align-items:center;
+justify-content:center;
+width:50px;
+height:50px;
+background:#f7f7f7;
+border-radius:8px;
+margin-bottom:20px;
+transition:
+transform .45s ease,
+background .35s ease;
+}
+
+.icon-box i{
+color:var(--color-principal);
+transition:
+transform .45s ease,
+color .35s ease;
+}
+
+.card-animada:hover .icon-box{
+background:
+rgba(180,20,20,.08);
+transform:
+rotate(-8deg);
+}
+
+.card-animada:hover .icon-box i{
+color:var(--color-principal);
+transform:
+rotate(8deg)
+scale(1.25);
+}
+
+.card-animada h3{
+margin-bottom:10px;
+transition:.35s;
+}
+
+.card-animada:hover h3{
+color:var(--color-principal);
+}
+
+.card-animada p{
+font-size:14px;
+line-height:1.6;
+color:#666;
+transition:.35s;
+}
+
+.card-animada:hover p{
+color:#444;
+}
+
+/* ================= DESTACADAS ================= */
+.destacadas-section{
+max-width:1200px;
+margin:80px auto;
+padding:0 20px;
+text-align:center;
+}
+
+.destacadas-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+}
+
+.prop-card{
+background:white;
+border-radius:12px;
+overflow:hidden;
+box-shadow:0 6px 18px rgba(0,0,0,.08);
+text-decoration:none;
+color:inherit;
+transition:.3s;
+}
+
+.prop-card:hover{
+transform:translateY(-6px);
+}
+
+.prop-card img{
+width:100%;
+height:260px;
+object-fit:cover;
+}
+
+.prop-body{
+padding:20px;
+text-align:left;
+}
+
+.prop-tag{
+display:inline-block;
+padding:6px 12px;
+border-radius:30px;
+background:var(--color-principal);
+color:white;
+font-size:12px;
+margin-bottom:10px;
+}
+
+.prop-price{
+font-size:22px;
+font-weight:bold;
+margin:12px 0;
+color:var(--color-gris);
+}
+
+.prop-location{
+display:flex;
+align-items:center;
+gap:6px;
+font-size:14px;
+color:#777;
+}
+
+.footer-premium{
+
+background:#232323;
+padding:50px 20px 25px;
+color:white;
+}
+
+.footer-contenedor{
+
+max-width:1200px;
+margin:auto;
+
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(250px,1fr));
+
+gap:40px;
+}
+
+.footer-col h3{
+margin-bottom:20px;
+font-size:18px;
+}
+
+.footer-col p,
+.footer-col a{
+color:#d7d7d7;
+font-size:14px;
+line-height:1.8;
+text-decoration:none;
+}
+
+.footer-redes{
+display:flex;
+gap:15px;
+margin-top:15px;
+}
+
+.footer-redes a{
+width:42px;
+height:42px;
+display:flex;
+justify-content:center;
+align-items:center;
+background:#303030;
+border-radius:50%;
+transition:.3s;
+}
+
+.footer-redes a:hover{
+background:var(--color-principal);
+transform:translateY(-3px);
+}
+
+.footer-redes i{
+font-size:18px;
+color:white;
+}
+
+.footer-copy{
+margin-top:35px;
+padding-top:20px;
+border-top:
+1px solid rgba(255,255,255,.08);
+text-align:center;
+font-size:13px;
+color:#aaa;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:768px){
+
+header{
+padding:20px;
+flex-direction:column;
+gap:15px;
+}
+
+nav{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.hero-title{
+font-size:34px;
+}
+
+.hero-subtitle{
+font-size:16px;
+}
+
+.hero-section{
+min-height:500px;
+}
+
+.destacadas-grid{
+grid-template-columns:1fr;
+}
+}
+
+</style>
+</head>
+<body>
+<header>
+<div class="logo-container"
+onclick="window.location.href='index.html'">
+<img src="img/logo-cuad.png">
+</div>
+<nav>
+<a href="index.html" class="active-link">
+Inicio
+</a>
+<a href="propiedades.html">
+Propiedades
+</a>
+<a href="tasaciones.html">
+Tasaciones
+</a>
+<a href="consorcios.html">
+Consorcios
+</a>
+<a href="nosotros.html">
+Nosotros
+</a>
+<a href="contacto.html">
+Contacto
+</a>
+</nav>
+</header>
+<section class="hero-section">
+<h1 class="hero-title">
+Tu próximo paso inmobiliario,<br>
+con total seguridad
+</h1>
+<p class="hero-subtitle">
+Soluciones integrales en corretaje,
+tasaciones profesionales y administración
+transparente de consorcios en San Nicolás
+y la región.
+</p>
+<a href="propiedades.html" class="btn-cta">
+VER PROPIEDADES DISPONIBLES
+</a>
+</section>
+<main class="services-section">
+<h2 class="section-title">
+Servicios Profesionales
+</h2>
+<p class="section-subtitle">
+Respaldados por la trayectoria, idoneidad y compromiso de María Soledad Pajor.
+</p>
+<div class="home-grid">
+<a href="propiedades.html" class="card-animada home-card">
+<div class="icon-box">
+<i data-lucide="key-round"></i>
+</div>
+<h3>Ventas y Alquileres</h3>
+<p>
+Buscador optimizado y atención a medida para encontrar tu propiedad ideal.
+</p>
+</a>
+<a href="tasaciones.html" class="card-animada home-card">
+<div class="icon-box">
+<i data-lucide="calculator"></i>
+</div>
+<h3>Tasaciones Oficiales</h3>
+<p>
+Análisis riguroso de mercado para determinar el valor real.
+</p>
+</a>
+<a href="consorcios.html" class="card-animada home-card">
+<div class="icon-box">
+<i data-lucide="building"></i>
+</div>
+<h3>Administración de Consorcios</h3>
+<p>
+Gestión transparente y mantenimiento activo.
+</p>
+</a>
+</div>
+</main>
+<section class="destacadas-section">
+<h2 class="section-title">
+Propiedades destacadas
+</h2>
+<p class="section-subtitle">
+Selección de oportunidades y propiedades recomendadas
+</p>
+<div
+id="destacadas-grid"
+class="destacadas-grid">
+</div>
+</section>
+<footer class="footer-premium">
+<div class="footer-contenedor">
+<div class="footer-col">
+<h3>Inmobiliaria Pajor</h3>
+<p>
+María Soledad Pajor<br>
+Martillera Pública, Corredora Inmobiliaria y Administradora de Consorcios
+</p>
+<p>
+T III – F°95 C.M.S.N.
+</p>
+</div>
+<div class="footer-col">
+<h3>Contacto</h3>
+<p>info@inmobiliariapajor.com</p>
+<p>administracion@inmobiliariapajor.com</p>
+<p>+54 3364 59-9037</p>
+<p>+54 3364 58-4174</p>
+</div>
+<div class="footer-col">
+<h3>Seguinos</h3>
+<div class="footer-redes">
+<a href="https://www.facebook.com/InmobiliariaPajor/" target="_blank">
+<i class="fa-brands fa-facebook-f"></i>
+</a>
+<a href="https://www.instagram.com/inmobiliaria.pajor" target="_blank">
+<i class="fa-brands fa-instagram"></i>
+</a>
+</div>
+</div>
+</div>
+<div class="footer-copy">
+© <span id="anio"></span> Inmobiliaria Pajor · Todos los derechos reservados
+</div>
+</footer>
+
+    <a href="https://wa.me/543364599037?text=Hola,%20quisiera%20ponerme%20en%20contacto%20con%20ustedes." class="whatsapp-float" target="_blank">
+        <svg viewBox="0 0 448 512" style="width: 34px; height: 34px; fill: white;">
+            <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
+        </svg>
+    </a>
+    
+<script>
+
+async function cargarDestacadas(){
+
+const response=
+await fetch('./data/propiedades.json');
+
+const propiedades=
+await response.json();
+
+const destacadas=
+propiedades
+.filter(p=>p.destacada===true)
+.slice(0,3);
+
+const container=
+document.getElementById(
+'destacadas-grid'
+);
+
+destacadas.forEach(prop=>{
+container.innerHTML+=`
+
+<a class="prop-card"
+href="detalle.html?id=${prop.id}">
+<img src="${prop.imagenes[0]}">
+<div class="prop-body">
+<span class="prop-tag">
+${prop.operacion}
+</span>
+<h3>
+${prop.titulo}
+</h3>
+<div class="prop-price">
+${prop.precio}
+</div>
+<div class="prop-location">
+<i data-lucide="map-pin"></i>
+${prop.ubicacion}
+</div>
+</div>
+</a>
+`;
+});
+document.getElementById("anio").innerText=
+new Date().getFullYear();
+lucide.createIcons();
+}
+cargarDestacadas();
+lucide.createIcons();
+</script>
+</body>
+</html>

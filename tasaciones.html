@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tasaciones | Inmobiliaria Pajor</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/variables.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="icon" href="img/ico2.png" type="image/png">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded",()=>{
+    lucide.createIcons();
+    });
+    </script>
+
+<style>
+.services-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+max-width:1200px;
+margin:40px auto 60px;
+padding:0 20px;
+}
+
+.card-animada{
+background:white;
+padding:30px;
+border-radius:10px;
+border:1px solid #eee;
+box-shadow:var(--shadow-card);
+position:relative;
+overflow:hidden;
+transition:
+transform .45s ease,
+box-shadow .45s ease,
+border-color .45s ease;
+}
+
+.card-animada:hover{
+transform:translateY(-8px);
+box-shadow:
+0 15px 35px rgba(0,0,0,.08);
+border-color:
+rgba(180,20,20,.20);
+}
+
+.icon-box{
+display:inline-flex;
+align-items:center;
+justify-content:center;
+width:50px;
+height:50px;
+background:#f7f7f7;
+border-radius:8px;
+margin-bottom:20px;
+transition:
+transform .45s ease,
+background .35s ease;
+}
+
+.icon-box i{
+transition:
+transform .45s ease,
+color .35s ease;
+}
+
+.card-animada:hover .icon-box{
+background:
+rgba(180,20,20,.08);
+transform:
+rotate(-8deg);
+}
+
+.card-animada:hover .icon-box i{
+color:var(--color-principal);
+transform:
+rotate(8deg)
+scale(1.25);
+}
+
+.card-animada h3{
+margin-bottom:10px;
+transition:.35s;
+}
+
+.card-animada:hover h3{
+color:var(--color-principal);
+}
+
+.card-animada p{
+font-size:14px;
+line-height:1.6;
+color:#666;
+transition:.35s;
+}
+
+.card-animada:hover p{
+color:#444;
+}
+
+.card-animada h3{
+margin-bottom:10px;
+}
+
+.card-animada p{
+font-size:14px;
+line-height:1.6;
+color:#666;
+}
+
+.info-tasaciones-section{
+background:var(--color-fondo);
+padding:70px 20px;
+}
+
+.info-tasaciones-container{
+max-width:1200px;
+margin:auto;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+}
+
+.info-block-title{
+display:flex;
+align-items:center;
+gap:10px;
+margin-bottom:20px;
+}
+
+.info-list{
+list-style:none;
+padding:0;
+}
+
+.info-list li{
+position:relative;
+padding-left:35px;
+margin-bottom:18px;
+line-height:1.6;
+font-size:14px;
+color:#555;
+}
+
+.info-list li i{
+position:absolute;
+left:0;
+top:3px;
+color:var(--color-principal);
+}
+
+.cta-tasacion-container{
+max-width:1200px;
+margin:auto;
+padding:0 20px 70px;
+}
+
+.cta-tasacion-box{
+background:linear-gradient(135deg,#1b1b1b,#111);
+padding:50px;
+border-radius:12px;
+text-align:center;
+color:white;
+border-bottom:4px solid var(--color-principal);
+}
+
+.btn-solicitar-cta{
+display:inline-block;
+margin-top:25px;
+padding:14px 35px;
+background:var(--color-principal);
+color:white;
+text-decoration:none;
+border-radius:6px;
+font-weight:700;
+transition:.3s;
+}
+
+.btn-solicitar-cta:hover{
+transform:translateY(-2px);
+}
+
+.footer-premium{
+background:#232323;
+padding:50px 20px 25px;
+color:#fff;
+}
+
+.footer-contenedor{
+max-width:1200px;
+margin:auto;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:40px;
+}
+
+.footer-col h3{
+margin-bottom:20px;
+font-size:18px;
+}
+
+.footer-col p,
+.footer-col a{
+color:#d7d7d7;
+font-size:14px;
+line-height:1.8;
+text-decoration:none;
+}
+
+.footer-redes{
+display:flex;
+gap:15px;
+margin-top:15px;
+}
+
+.footer-redes a{
+width:42px;
+height:42px;
+display:flex;
+justify-content:center;
+align-items:center;
+background:#2f2f2f;
+border-radius:50%;
+transition:.3s;
+}
+
+.footer-redes i{
+font-size:20px;
+}
+
+.footer-redes a:hover{
+background:var(--color-principal);
+transform:translateY(-3px);
+}
+
+.footer-copy{
+
+margin-top:35px;
+padding-top:20px;
+border-top:1px solid rgba(255,255,255,.08);
+text-align:center;
+font-size:13px;
+color:#aaa;
+
+}
+
+@media(max-width:768px){
+
+nav{
+display:none !important;
+}
+
+.info-tasaciones-container{
+grid-template-columns:1fr;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header style="background:white;padding:10px 50px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #eee;">
+
+<div class="logo-container" onclick="window.location.href='index.html'">
+<img src="img/logo-cuad.png" alt="Pajor">
+</div>
+
+<nav style="display:flex;gap:20px">
+
+<a href="index.html">Inicio</a>
+<a href="propiedades.html">Propiedades</a>
+<a href="tasaciones.html" style="color:var(--color-principal);font-weight:bold">Tasaciones</a>
+<a href="consorcios.html">Consorcios</a>
+<a href="nosotros.html">Nosotros</a>
+<a href="contacto.html">Contacto</a>
+
+</nav>
+
+</header>
+
+
+<section style="background:
+linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)),
+url('img/fondos/tasaciones.jpg') center/cover;
+padding:90px 20px;
+text-align:center;
+color:white">
+
+<h1 style="font-size:38px;margin-bottom:15px">
+
+Tasaciones Profesionales
+
+</h1>
+
+<p style="max-width:700px;margin:auto">
+
+Determinamos el valor real de su patrimonio con rigurosidad técnica y conocimiento actualizado del mercado.
+
+</p>
+
+</section>
+
+
+<main class="services-grid">
+
+<div class="card-animada">
+<div class="icon-box">
+<i data-lucide="home" style="color:var(--color-principal)"></i>
+</div>
+
+<h3>Residenciales</h3>
+
+<p>Casas, departamentos y complejos habitacionales analizados bajo metodologías precisas comparativas.</p>
+</div>
+
+
+<div class="card-animada">
+<div class="icon-box">
+<i data-lucide="building-2" style="color:var(--color-principal)"></i>
+</div>
+
+<h3>Comerciales</h3>
+
+<p>Locales, oficinas y desarrollos comerciales con análisis de rentabilidad.</p>
+
+</div>
+
+
+<div class="card-animada">
+
+<div class="icon-box">
+<i data-lucide="map" style="color:var(--color-principal)"></i>
+</div>
+
+<h3>Terrenos y Fracciones</h3>
+
+<p>Evaluación urbanística, potencial constructivo y factibilidad.</p>
+
+</div>
+
+
+<div class="card-animada">
+
+<div class="icon-box">
+<i data-lucide="users" style="color:var(--color-principal)"></i>
+</div>
+
+<h3>Asesoramiento Personalizado</h3>
+
+<p>Acompañamiento profesional durante todo el proceso.</p>
+
+</div>
+
+</main>
+
+
+<section class="info-tasaciones-section">
+
+<div class="info-tasaciones-container">
+
+<div>
+
+<h3 class="info-block-title">
+
+<i data-lucide="clipboard-list"></i>
+
+Documentación Necesaria
+
+</h3>
+
+<ul class="info-list">
+
+<li><i data-lucide="check-circle-2"></i> Escritura o boleto.</li>
+
+<li><i data-lucide="check-circle-2"></i> Planos disponibles.</li>
+
+<li><i data-lucide="check-circle-2"></i> ARBA y tasas municipales.</li>
+
+<li><i data-lucide="check-circle-2"></i> Expensas (si corresponde).</li>
+
+</ul>
+
+</div>
+
+
+<div>
+
+<h3 class="info-block-title">
+
+<i data-lucide="shield-check"></i>
+
+¿Por qué elegirnos?
+
+</h3>
+
+<ul class="info-list">
+
+<li><i data-lucide="check-circle-2"></i> Profesionales certificados.</li>
+
+<li><i data-lucide="check-circle-2"></i> Estudio real del mercado.</li>
+
+<li><i data-lucide="check-circle-2"></i> Informes técnicos.</li>
+
+<li><i data-lucide="check-circle-2"></i> Confidencialidad.</li>
+
+<li><i data-lucide="check-circle-2"></i> Entrega rápida.</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+
+<div class="cta-tasacion-container">
+
+<div class="cta-tasacion-box">
+
+<h2>Solicitá tu tasación</h2>
+
+<p>
+
+Contactanos para obtener una valuación profesional de tu inmueble.
+
+</p>
+
+<a href="contacto.html" class="btn-solicitar-cta">
+
+Solicitar Tasación
+
+</a>
+
+</div>
+
+</div>
+
+
+<footer class="footer-premium">
+
+<div class="footer-contenedor">
+
+<div class="footer-col">
+
+<h3>Inmobiliaria Pajor</h3>
+
+<p>
+María Soledad Pajor<br>
+Martillera Pública, Corredora Inmobiliaria y Administradora de Consorcios
+</p>
+<p>T III – F°95 C.M.S.N.</p>
+</div>
+
+
+<div class="footer-col">
+<h3>Contacto</h3>
+<p>info@inmobiliariapajor.com</p>
+<p>administracion@inmobiliariapajor.com</p>
+<p>+54 3364 59-9037</p>
+<p>+54 3364 58-4174</p>
+
+</div>
+
+    <div class="footer-col">
+    <h3>Seguinos</h3>
+
+<div class="footer-redes">
+
+<a href="https://www.facebook.com/InmobiliariaPajor/"
+target="_blank"
+aria-label="Facebook">
+
+<i class="fa-brands fa-facebook-f"></i>
+
+</a>
+
+
+<a href="https://www.instagram.com/inmobiliaria.pajor?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+target="_blank"
+aria-label="Instagram">
+
+<i class="fa-brands fa-instagram"></i>
+
+</a>
+
+</div>
+    </div>
+</div>
+
+<div class="footer-copy">
+
+© <span id="anio"></span> Inmobiliaria Pajor · Todos los derechos reservados
+
+</div>
+
+</footer>
+
+
+    <a href="https://wa.me/543364599037?text=Hola,%20quisiera%20ponerme%20en%20contacto%20con%20ustedes." class="whatsapp-float" target="_blank">
+        <svg viewBox="0 0 448 512" style="width: 34px; height: 34px; fill: white;">
+            <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
+        </svg>
+    </a>
+
+
+<script>
+
+lucide.createIcons();
+
+document.getElementById("anio").innerText=
+new Date().getFullYear();
+
+</script>
+
+</body>
+</html>

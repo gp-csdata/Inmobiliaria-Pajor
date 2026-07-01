@@ -1,0 +1,35 @@
+:root {
+    /* Paleta de Colores oficial */
+    --color-principal: #C62828;
+    --color-oscuro: #8E0000;
+    --color-gris: #3A3A3AF;
+    --color-fondo: #F8F8F8;
+    --color-blanco: #FFFFFF;
+    
+    /* Tipografías */
+    --font-resaltados: 'Montserrat', sans-serif;
+    --font-suaves: 'Inter', sans-serif;
+    
+    /* Transiciones */
+    --transition-smooth: all 0.3s ease;
+    --shadow-card: 0 4px 15px rgba(0,0,0,0.05);
+    --shadow-hover: 0 10px 25px rgba(198, 40, 40, 0.15);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-suaves);
+    font-weight: 300;
+    background-color: var(--color-fondo);
+    color: var(--color-gris);
+}
+
+h1, h2, h3, h4, .bold-text {
+    font-family: var(--font-resaltados);
+    font-weight: 700;
+}
