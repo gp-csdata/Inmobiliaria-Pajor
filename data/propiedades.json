@@ -259,5 +259,40 @@
     "img/prop014/03.jpg",
     "img/prop014/04.jpg"
     ]
+  },
+  {
+    "id": 15,
+    "codigo": "00",
+    "titulo": "Departamento a estrenar",
+    "operacion": "Alquiler",
+    "tipo": "Departamento",
+    "precio": "$ 550.000",
+    "ubicacion": "Ing.Iribas 1154",
+    "dormitorios": 2,
+    "banos": 1,
+    "cochera":true,
+    "cocina separada":true,
+    "caldera":true,
+    "parrilla":true,
+    "quincho":true,
+    "laundry":true,
+    "descripcion": "Cocina con espacio para lavarropas, living, comedor y 2 dormitorios.",
+    "imagenes": [
+      "img/prop015/00.jpeg",
+      "img/prop015/01.jpeg",
+      "img/prop015/02.jpeg",
+      "img/prop015/03.jpeg",
+      "img/prop015/04.jpeg",
+      "img/prop015/05.jpeg",
+      "img/prop015/06.jpeg",
+      "img/prop015/07.jpeg",
+      "img/prop015/08.jpeg",
+      "img/prop015/09.jpeg",
+      "img/prop015/10.jpeg",
+      "img/prop015/11.jpeg",
+      "img/prop015/12.jpeg",
+      "img/prop015/13.jpeg",
+      "img/prop015/14.jpeg"
+    ]
   }
 ]
