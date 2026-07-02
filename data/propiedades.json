@@ -170,7 +170,18 @@
     "descripcion": "3 dormitorios, estar, comedor, cocina, baño y patio.",
     "imagenes": [
       "img/prop006/00.jpg",
-      "img/prop006/01.mp4"
+      "img/prop006/01.mp4",
+      "img/prop006/02.jpeg",
+      "img/prop006/03.jpeg",
+      "img/prop006/04.jpeg",
+      "img/prop006/05.jpeg",
+      "img/prop006/06.jpeg",
+      "img/prop006/07.jpeg",
+      "img/prop006/08.jpeg",
+      "img/prop006/09.jpeg",
+      "img/prop006/10.jpeg",
+      "img/prop006/11.jpeg",
+      "img/prop006/12.jpeg"
     ]
   },
   {
@@ -192,7 +203,19 @@
     "parrilla cubierta":true,
     "descripcion": "Casa en Barrio Rucci, con 3 dormitorios, estar, comedor, cocina, baño y patio.",
     "imagenes": [
-      "img/prop007/00.jpg"
+      "img/prop006/00.jpg",
+      "img/prop006/01.mp4",
+      "img/prop006/02.jpeg",
+      "img/prop006/03.jpeg",
+      "img/prop006/04.jpeg",
+      "img/prop006/05.jpeg",
+      "img/prop006/06.jpeg",
+      "img/prop006/07.jpeg",
+      "img/prop006/08.jpeg",
+      "img/prop006/09.jpeg",
+      "img/prop006/10.jpeg",
+      "img/prop006/11.jpeg",
+      "img/prop006/12.jpeg"
     ]
   },
   {
