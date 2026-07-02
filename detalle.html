@@ -93,8 +93,9 @@ max-width:1350px;
 margin:30px auto;
 padding:0 20px;
 display:grid;
-grid-template-columns:1fr 400px;
+grid-template-columns:minmax(0,1fr) 320px;
 gap:30px;
+width:100%;
 }
 
 .main-info-box,
@@ -103,6 +104,8 @@ background:var(--color-blanco);
 border-radius:12px;
 padding:25px;
 box-shadow:var(--shadow-card);
+min-width:0;
+overflow:hidden;
 }
 
 .side-info-box{
@@ -164,19 +167,28 @@ right:15px;
 display:flex;
 gap:10px;
 margin-top:15px;
+width:100%;
+max-width:100%;
 overflow-x:auto;
+overflow-y:hidden;
+flex-wrap:nowrap;
 padding-bottom:8px;
+scrollbar-width:none;
+}
+
+.gallery-thumbnails::-webkit-scrollbar{
+display:none;
 }
 
 .thumb-img,
 .thumb-video{
-width:90px;
-height:65px;
+flex:0 0 70px;
+width:70px;
+height:55px;
 border-radius:4px;
 cursor:pointer;
 border:2px solid transparent;
 transition:.3s;
-flex-shrink:0;
 }
 
 .thumb-img{
@@ -284,6 +296,12 @@ transition:.3s;
 .btn-action-whatsapp{
 background:#25D366;
 color:white;
+}
+
+.media-container{
+position:relative;
+width:100%;
+overflow:hidden;
 }
 
 @media(max-width:768px){
@@ -434,7 +452,6 @@ style="font-size:18px;line-height:1.8;color:#444;">
 </main>
 
 <aside class="side-info-box">
-
 <span>Valor de la propiedad</span>
 <h2 id="prop-precio"></h2>
 
