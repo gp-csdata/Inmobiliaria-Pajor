@@ -317,5 +317,71 @@
       "img/prop015/13.jpeg",
       "img/prop015/14.jpeg"
     ]
+  },
+  {
+    "id": 16,
+    "codigo": "00",
+    "titulo": "Departamento Ed.Gigra",
+    "operacion": "Alquiler",
+    "tipo": "Departamento",
+    "precio": "$ 550.000",
+    "ubicacion": "Pellegrini y Av.Savio",
+    "dormitorios": 2,
+    "banos": 1,
+    "cochera":true,
+    "cocina separada":true,
+    "caldera":true,
+    "parrilla":true,
+    "quincho":true,
+    "laundry":true,
+    "descripcion": "Cocina con espacio para lavarropas, living, comedor y 2 dormitorios.",
+    "imagenes": [
+      "img/prop016/00.jpeg",
+      "img/prop016/01.jpeg",
+      "img/prop016/02.jpeg",
+      "img/prop016/03.jpeg",
+      "img/prop016/04.jpeg",
+      "img/prop016/05.jpeg",
+      "img/prop016/06.jpeg",
+      "img/prop016/07.jpeg",
+      "img/prop016/08.jpeg",
+      "img/prop016/09.jpeg"
+    ]
+  },
+  {
+    "id": 17,
+    "codigo": "00",
+    "titulo": "Casa en Barrio Alcoholera",
+    "operacion": "Alquiler",
+    "tipo": "Casa",
+    "precio": "$ 650.000 mas impuestos.",
+    "ubicacion": "Barrio Alcoholera",
+    "dormitorios": 3,
+    "banos": 1,
+    "cochera":true,
+    "cocina separada":true,
+    "pileta":true,
+    "descripcion": "Cocina, living, comedor y baño, con cochera para 2 autos.",
+    "imagenes": [
+    ]
+  },
+  {
+    "id": 18,
+    "codigo": "00",
+    "titulo": "Departamento duplex",
+    "operacion": "Alquiler",
+    "tipo": "Departamento",
+    "precio": "$ 550.000 mas impuestos y expensas",
+    "ubicacion": "San Jose 320",
+    "dormitorios": 2,
+    "banos": 2,
+    "patio":true,
+    "cochera":true,
+    "cocina separada":true,
+    "balcon":true,
+    "apto mascotas":true,
+    "descripcion": "Cocina, comedor, living y espacio de guardado.",
+    "imagenes": [
+    ]
   }
 ]
