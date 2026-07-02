@@ -24,6 +24,11 @@ box-sizing:border-box;
 body{
 font-family:'Montserrat',sans-serif;
 background:#f5f5f5;
+overflow-x:hidden;
+}
+
+html,body{
+scroll-behavior:smooth;
 }
 
 /* ================= HEADER ================= */
@@ -114,7 +119,8 @@ position:relative;
 
 .gallery-main{
 width:100%;
-height:80vh;
+height:65vh;
+max-height:700px;
 object-fit:contain;
 background:#f5f5f5;
 border-radius:8px;
@@ -123,33 +129,26 @@ border-radius:8px;
 #media-principal img,
 #media-principal video{
 width:100%;
-height:80vh;
+height:65vh;
+max-height:700px;
 object-fit:contain;
 background:#f5f5f5;
 border-radius:8px;
 }
 
 .gallery-arrow{
-
 position:absolute;
 top:50%;
 transform:translateY(-50%);
-
 width:50px;
 height:50px;
-
 border:none;
 border-radius:50%;
-
 background:rgba(255,255,255,.9);
-
 cursor:pointer;
-
 font-size:28px;
 font-weight:bold;
-
 z-index:10;
-
 box-shadow:0 3px 10px rgba(0,0,0,.2);
 }
 
@@ -573,58 +572,26 @@ document.getElementById('prop-descripcion').innerText=
 prop.descripcion || "Sin descripción";
 
 
-const caracteristicas={
-
-patio:'Patio',
-cochera:"Cochera",
-espacio_auto:"Espacio para auto",
-cocina_separada:"Cocina separada",
-frente:'Frente',
-contrafrente:'Contrafrente',
-escritura:'Escritura',
-estrenar:'A estrenar',
-placard_empotrado:'Placard empotrado',
-gas_envasado:"Gas Envasado",
-artefactos_electricos:'Artefactos eléctricos',
-caldera:"Caldera",
-parrilla:'Parrilla',
-parrila_cubierta:'Parrilla cubierta',
-quincho:'Quincho',
-cochera:'Cochera',
-laundry:'Laundry',
-balcon:'Balcón',
-apto_mascotas:'Apto mascotas',
-pileta:'Pileta',
-terraza:'Terraza',
-apto_credito:'Apto Crédito',
-apto_vivienda:'Apto vivienda familiar',
-apto_comercio:'Apto comercial',
-apto_profesional:'Apto profesional',
-interno:'Interno',
-
-};
-
 const features=
-document.getElementById(
-"features-grid"
-);
+document.getElementById("features-grid");
 
 features.innerHTML='';
 
-Object.entries(caracteristicas)
-.forEach(([clave,nombre])=>{
+Object.entries(prop).forEach(([clave,valor])=>{
 
-if(prop[clave]===true){
+if(valor===true){
+
+const nombre=clave
+.replaceAll("_"," ")
+.replace(/\b\w/g,l=>l.toUpperCase());
 
 features.innerHTML+=`
-
 <div class="feature-item">
 <i data-lucide="check-circle"></i>
 <span>${nombre}</span>
 </div>
 `;
 }
-
 });
 lucide.createIcons();
 }
