@@ -364,7 +364,7 @@
   {
     "id": 17,
     "codigo": "00",
-    "titulo": "Casa en Barrio Alcoholera",
+    "titulo": "Casa en barrio Alcoholera",
     "operacion": "Alquiler",
     "tipo": "Casa",
     "precio": "$ 650.000 mas impuestos.",
@@ -442,7 +442,7 @@
     "operacion": "Alquiler",
     "tipo": "Casa",
     "precio": "Consultar",
-    "estado": "Alquilado",
+    "estado": "alquilada",
     "ubicacion": "Roca 582",
     "dormitorios": 2,
     "banos": 1,
@@ -451,26 +451,6 @@
     "espacio para auto":true,
     "apto mascotas":true,
     "descripcion": "Cocina, comedor, living y gran patio.",
-    "imagenes": [
-    ]
-  },
-  {
-    "id": 22,
-    "codigo": "00",
-    "titulo": "Departamento duplex",
-    "operacion": "Alquiler",
-    "tipo": "Departamento",
-    "precio": "$ 550.000 mas impuestos y expensas",
-    "estado": "Disponible",
-    "ubicacion": "Parana 83",
-    "dormitorios": 2,
-    "banos": 1,
-    "patio":true,
-    "cochera":true,
-    "cocina separada":true,
-    "balcon":true,
-    "apto mascotas":true,
-    "descripcion": "Casa reciclada, con cocina comedor, y living, 2 dormitorios, galeria y patio con parrilla.",
     "imagenes": [
     ]
   },
