@@ -588,6 +588,30 @@ document.getElementById('prop-supcub').innerText=prop.sup_cubierta||"-";
 document.getElementById('prop-descripcion').innerText=
 prop.descripcion || "Sin descripción";
 
+/* ===== ESTADO DISPONIBLE / ALQUILADA ===== */
+
+const boton=
+document.getElementById("link-wsp");
+
+if(prop.estado==="alquilada"){
+
+boton.innerHTML=`
+<i data-lucide="x-circle"></i>
+No disponible
+`;
+boton.removeAttribute("href");
+boton.style.background="#7a7a7a";
+boton.style.cursor="not-allowed";
+boton.style.pointerEvents="none";
+}else{
+const msg=encodeURIComponent(
+`Hola, quisiera recibir información sobre la propiedad código ${prop.codigo}: ${prop.titulo}`
+);
+boton.href=
+`https://wa.me/543364599037?text=${msg}`;
+}
+
+/* ===== CARACTERÍSTICAS TRUE ===== */
 
 const features=
 document.getElementById("features-grid");

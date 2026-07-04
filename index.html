@@ -304,15 +304,11 @@ color:white;
 }
 
 .footer-contenedor{
-
 max-width:1200px;
 margin:auto;
-
 display:grid;
-
 grid-template-columns:
 repeat(auto-fit,minmax(250px,1fr));
-
 gap:40px;
 }
 
@@ -546,6 +542,11 @@ await response.json();
 const destacadas=
 propiedades
 .filter(p=>p.destacada===true)
+.sort((a,b)=>{
+if(a.estado==="alquilada" && b.estado!=="alquilada") return 1;
+if(a.estado!=="alquilada" && b.estado==="alquilada") return -1;
+return 0;
+})
 .slice(0,3);
 
 const container=
@@ -554,18 +555,46 @@ document.getElementById(
 );
 
 destacadas.forEach(prop=>{
-container.innerHTML+=`
+
+container.innerHTML += `
 
 <a class="prop-card"
-href="detalle.html?id=${prop.id}">
+href="detalle.html?id=${prop.id}"
+style="position:relative;">
+
+${(prop.estado || "disponible").toLowerCase()==="alquilada" ? `
+
+<div style="
+position:absolute;
+top:18px;
+left:-35px;
+width:180px;
+padding:8px;
+background:rgba(80,80,80,.5);
+color:white;
+font-size:11px;
+font-weight:bold;
+text-align:center;
+transform:rotate(-35deg);
+z-index:5;
+backdrop-filter:blur(4px);
+">
+
+PROPIEDAD ALQUILADA
+</div>
+
+` : ''}
 <img src="${prop.imagenes[0]}">
 <div class="prop-body">
+
 <span class="prop-tag">
 ${prop.operacion}
 </span>
+
 <h3>
 ${prop.titulo}
 </h3>
+
 <div class="prop-price">
 ${prop.precio}
 </div>
@@ -577,6 +606,7 @@ ${prop.ubicacion}
 </a>
 `;
 });
+
 document.getElementById("anio").innerText=
 new Date().getFullYear();
 lucide.createIcons();

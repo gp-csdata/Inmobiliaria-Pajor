@@ -299,7 +299,15 @@ const datos = await response.json();
 
 // Forzamos validación de tipo Array
 if (Array.isArray(datos)) {
-todasLasPropiedades = datos;
+todasLasPropiedades = datos.sort((a,b)=>{
+if(a.estado==="alquilada" && b.estado!=="alquilada"){
+return 1;
+}
+if(a.estado!=="alquilada" && b.estado==="alquilada"){
+return -1;
+}
+return 0;
+});
 renderizarCards(todasLasPropiedades);
 } else {
 console.error("Estructura de datos inválida devuelta por el JSON:", datos);
@@ -331,21 +339,93 @@ const fotoPortada = (prop.imagenes && prop.imagenes.length > 0) ? prop.imagenes[
 const supCubierta = prop.sup_cubierta ? prop.sup_cubierta : '-';
 
 card.innerHTML = `
+<div style="position:relative;overflow:hidden;">
+
+${prop.estado==="alquilada" ? `
+<div style="
+position:absolute;
+top:18px;
+left:-35px;
+width:180px;
+padding:8px;
+background:rgba(80,80,80,.5);
+color:white;
+font-size:11px;
+font-weight:bold;
+text-align:center;
+transform:rotate(-35deg);
+z-index:20;
+backdrop-filter:blur(4px);
+">
+PROPIEDAD ALQUILADA
+</div>
+
+`:''}
 <img src="${fotoPortada}" alt="${prop.titulo}" class="prop-card-img">
-<div style="padding: 20px;">
-<span class="prop-tag">${prop.operacion}</span>
-<h3 style="font-size: 16px; min-height: 44px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: var(--color-gris); line-height: 1.4;">${prop.titulo}</h3>
-<p style="font-size: 13px; color: #777; margin-top: 5px; display: flex; align-items: center; gap: 4px;">
-<i data-lucide="map-pin" style="width:14px; height:14px; color: var(--color-principal); flex-shrink: 0;"></i> ${prop.ubicacion}
+</div>
+
+<div style="padding:20px;">
+<span class="prop-tag">
+
+${prop.operacion}
+
+</span>
+
+<h3 style="
+font-size:16px;
+min-height:44px;
+display:-webkit-box;
+-webkit-line-clamp:2;
+-webkit-box-orient:vertical;
+overflow:hidden;
+color:var(--color-gris);
+line-height:1.4;">
+
+${prop.titulo}
+</h3>
+<p style="
+font-size:13px;
+color:#777;
+margin-top:5px;
+display:flex;
+align-items:center;
+gap:4px;">
+
+<i data-lucide="map-pin"
+style="
+width:14px;
+height:14px;
+color:var(--color-principal);
+flex-shrink:0;">
+</i>
+
+${prop.ubicacion}
 </p>
-<p class="prop-price">${prop.precio}</p>
+<p class="prop-price">
+
+${prop.precio}
+</p>
 <div class="prop-features">
-<div class="feature-item"><i data-lucide="bed" style="width:16px;"></i> <span>${prop.dormitorios} Dorm.</span></div>
-<div class="feature-item"><i data-lucide="bath" style="width:16px;"></i> <span>${prop.banos} Baños</span></div>
-<div class="feature-item"><i data-lucide="maximize" style="width:16px;"></i> <span>${supCubierta}</span></div>
+<div class="feature-item">
+<i data-lucide="bed" style="width:16px;"></i>
+
+<span>${prop.dormitorios} Dorm.</span>
+</div>
+
+<div class="feature-item">
+<i data-lucide="bath" style="width:16px;"></i>
+<span>${prop.banos} Baños</span>
+</div>
+
+<div class="feature-item">
+<i data-lucide="maximize" style="width:16px;"></i>
+<span>${supCubierta}</span>
+</div>
+
 </div>
 </div>
 `;
+
 container.appendChild(card);
 });
 lucide.createIcons();
