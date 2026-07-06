@@ -95,20 +95,21 @@
     "titulo": "Casa Super Usina",
     "operacion": "Venta",
     "tipo": "Casa",
-    "precio": "Consultar",
+    "precio": "U$D 140.000",
     "estado": "Disponible",
     "ubicacion": "Barrio Super Usina",
     "dormitorios": 3,
     "banos": 1,
-    "sup_total": "",
-    "sup_cubierta": "",
     "cocina_separada":true,
     "espacio para auto":true,
     "patio": true,
+    "escriturado":true,
+    "parrilla":true,
+    "laundry":true,
     "apto credito":true,
     "apto_mascotas":true,
     "apto_vivienda":true,
-    "descripcion": "Casa de 3 dormitorios, baño, cocina, estar, comedor, lavadero y paso de auto. ",
+    "descripcion": "Casa de 3 dormitorios, baño, cocina, estar, comedor, lavadero y paso de auto.",
     "imagenes": [
       "img/prop003/00.jpeg"
     ]
@@ -143,13 +144,13 @@
     "titulo": "Casa Ameghino y Bv.Morteo",
     "operacion": "Alquiler",
     "tipo": "Casa",
-    "estado": "Alquilado",
-    "precio": "$ 500.000",
+    "estado": "alquilada",
+    "precio": "$ 700.000",
     "ubicacion": "Ameghino 749",
     "dormitorios": 2,
     "banos": 1,
-    "sup_total": "",
-    "sup_cubierta": "",
+    "patio":true,
+    "cocina separada":true,
     "descripcion": "Casa de 2 dormitorios, cocina, estar, comedor y baño.",
     "imagenes": [
       "img/prop005/00.jpg"
@@ -397,6 +398,7 @@
     "apto mascotas":true,
     "descripcion": "Cocina, comedor, living y espacio de guardado.",
     "imagenes": [
+      "img/prop018/00.jpg"
     ]
   },
   {
@@ -452,6 +454,7 @@
     "apto mascotas":true,
     "descripcion": "Cocina, comedor, living y gran patio.",
     "imagenes": [
+      "img/prop002/00.jpg"
     ]
   },
   {
@@ -465,15 +468,180 @@
     "ubicacion": "Echeverría 16",
     "dormitorios": 3,
     "banos": 2,
-    "sup_total": "10.000 m2",
-    "sup_cubierta": "780 m2",
     "frente":true,
+    "cocina separada":true,
+    "laundry":true,
     "patio":true,
     "apto_vivienda":true,
     "apto_mascotas":true,
     "descripcion": "Casa con estar comedor, cocina comedor, 3 dormitorios, patio cerrado y patio abierto, lavadero y 2 baños.",
     "imagenes": [
       "img/prop010/00.JPG"
+    ]
+  },
+  {
+    "id": 24,
+    "codigo": "00",
+    "titulo": "Departamento interno",
+    "operacion": "Alquiler",
+    "tipo": "Departamento",
+    "precio": "$ 380.000",
+    "estado": "alquilada",
+    "ubicacion": "San Lorenzo 615",
+    "dormitorios": 1,
+    "banos": 1,
+    "cochera":true,
+    "patio":true,
+    "cocina separada":true,
+    "parrilla":true,
+    "laundry":true,
+    "apto mascotas":true,
+    "descripcion": "Cocina con espacio para lavarropas, living, comedor y 2 dormitorios.",
+    "imagenes": [
+    ]
+  },
+  {
+    "id": 25,
+    "codigo": "00",
+    "titulo": "Casa con patio",
+    "operacion": "Alquiler",
+    "tipo": "Casa",
+    "precio": "Actualizar",
+    "estado": "alquilada",
+    "ubicacion": "Paraná 83",
+    "dormitorios": 2,
+    "banos": 2,
+    "cochera":true,
+    "patio":true,
+    "cocina separada":true,
+    "parrilla":true,
+    "apto mascotas":true,
+    "descripcion": "Cocina comedor, living y dos dormitorios. Cochera, patio grande con parrilla y galeria, galpón para espacion de guardado.",
+    "imagenes": [
+    ]
+  },
+  {
+    "id": 26,
+    "codigo": "00",
+    "titulo": "Casa con patio",
+    "operacion": "Alquiler",
+    "tipo": "Casa",
+    "precio": "Actualizar",
+    "estado": "alquilada",
+    "ubicacion": "Cavalli 81",
+    "dormitorios": 3,
+    "banos": 1,
+    "cochera":true,
+    "patio":true,
+    "cocina separada":true,
+    "apto mascotas":true,
+    "descripcion": "Cocina, comedor, living, dos dormitorios, patio y cochera.",
+    "imagenes": [
+    ]
+  },
+  {
+    "id": 27,
+    "codigo": "00",
+    "titulo": "Casa Balcarce y M.Benitez",
+    "operacion": "Venta",
+    "tipo": "Casa",
+    "precio": "U$D 70.000",
+    "estado": "Disponible",
+    "ubicacion": "Balcarce 1441",
+    "dormitorios": 2,
+    "banos": 1,
+    "cochera":true,
+    "patio":true,
+    "cocina separada":true,
+    "frente":true,
+    "parrilla":true,
+    "apto mascotas":true,
+    "descripcion": "Casa en esquina con cocina, comedor, living, dos dormitorios, patio y cochera.",
+    "imagenes": [
+      "img/prop027/00.jpg"
+    ]
+  },
+  {
+    "id": 28,
+    "codigo": "00",
+    "titulo": "Casa Balcarce interna",
+    "operacion": "Venta",
+    "tipo": "Casa",
+    "precio": "U$D 40.000",
+    "estado": "Disponible",
+    "ubicacion": "Balcarce 1477",
+    "dormitorios": 2,
+    "banos": 1,
+    "cochera":true,
+    "patio":true,
+    "cocina separada":true,
+    "parrilla":true,
+    "apto mascotas":true,
+    "descripcion": "Cocina, comedor, living, dos dormitorios, patio y cochera.",
+    "imagenes": [
+      "img/prop028/00.jpg"
+    ]
+  },
+  {
+    "id": 29,
+    "codigo": "00",
+    "titulo": "Departamento Balcarce y Garibaldi",
+    "operacion": "Venta",
+    "tipo": "Departamento",
+    "precio": "U$D 37.000",
+    "estado": "Disponible",
+    "ubicacion": "Balcarce y Garibaldi",
+    "dormitorios": 1,
+    "banos": 1,
+    "cocina separada":true,
+    "frente":true,
+    "escriturado":true,
+    "balcon":true,
+    "laundry":true,
+    "apto mascotas":true,
+    "descripcion": "Cocina, comedor, living, dormitorio y baño.",
+    "imagenes": [
+      "img/prop029/00.jpg"
+    ]
+  },
+  {
+    "id": 30,
+    "codigo": "00",
+    "titulo": "Quinta en La Emilia",
+    "operacion": "Venta",
+    "tipo": "Quinta",
+    "precio": "Consultar",
+    "estado": "Disponible",
+    "ubicacion": "camino a La Emilia",
+    "dormitorios": 2,
+    "banos": 1,
+    "pileta":true,
+    "galeria":true,
+    "escriturado":true,
+    "apto credito":true,
+    "apto mascotas":true,
+    "descripcion": "Quinta camino a La Emilia, gran arbolada y parquizado, pileta con piso termico y solarium. La casa es de dos dormitorios, cocina, comedor y baño. La galeria es amplia con cierres de nylon cristal y parrilla, posee espacio  de guardado.",
+    "imagenes": [
+    ]
+  },
+  {
+    "id": 31,
+    "codigo": "00",
+    "titulo": "Casa en Barrio Los Fresnos",
+    "operacion": "Venta",
+    "tipo": "Casa",
+    "precio": "Actualizar",
+    "estado": "Disponible",
+    "ubicacion": "Bolivar 1280",
+    "dormitorios": 3,
+    "banos": 1,
+    "apto credito":true,
+    "apto vivienda":true,
+    "cochera":true,
+    "cocina separada":true,
+    "parrilla cubierta":true,
+    "descripcion": "Casa con estar comedor, cocina, 3 dormitorios, lavadero y baño. Patio y cochera. Apto crédito.",
+    "imagenes": [
     ]
   }
 ]
