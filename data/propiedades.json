@@ -378,6 +378,17 @@
     "pileta":true,
     "descripcion": "Cocina, living, comedor y baño, con cochera para 2 autos.",
     "imagenes": [
+      "img/prop017/00.jpg",
+      "img/prop017/01.jpg",
+      "img/prop017/02.jpg",
+      "img/prop017/03.jpg",
+      "img/prop017/04.jpg",
+      "img/prop017/05.jpg",
+      "img/prop017/06.jpg",
+      "img/prop017/07.jpg",
+      "img/prop017/08.jpg",
+      "img/prop017/09.jpg",
+      "img/prop017/10.jpg"
     ]
   },
   {
@@ -414,26 +425,6 @@
     "edificio administracion": true,
     "edificio para vestuarios": true,
     "descripcion": "Lote en plan comirsa, con 2 naves con puentes gruas, edificacion para oficina administracion, baños y vestuarios.",
-    "imagenes": [
-    ]
-  },
-  {
-    "id": 20,
-    "codigo": "00",
-    "titulo": "Quinta Barrio Autopista",
-    "operacion": "Venta",
-    "tipo": "Quinta",
-    "precio": "Consultar",
-    "estado": "Disponible",
-    "ubicacion": "Barrio Autopista",
-    "dormitorios": 1,
-    "banos": 1,
-    "patio":true,
-    "espacio para auto":true,
-    "parrilla":true,
-    "quincho":true,
-    "apto_mascotas":true,
-    "descripcion": "Quinta de facil acceso desde 188, con construccion en el fondo del lote.",
     "imagenes": [
     ]
   },
@@ -518,6 +509,9 @@
     "apto mascotas":true,
     "descripcion": "Cocina comedor, living y dos dormitorios. Cochera, patio grande con parrilla y galeria, galpón para espacion de guardado.",
     "imagenes": [
+      "img/prop025/00.jpg",
+      "img/prop025/01.jpg",
+      "img/prop025/02.jpg"
     ]
   },
   {
@@ -558,7 +552,11 @@
     "apto mascotas":true,
     "descripcion": "Casa en esquina con cocina, comedor, living, dos dormitorios, patio y cochera.",
     "imagenes": [
-      "img/prop027/00.jpg"
+      "img/prop027/00.jpg",
+      "img/prop027/01.jpg",
+      "img/prop027/02.jpg",
+      "img/prop027/03.jpg",
+      "img/prop027/04.jpg"
     ]
   },
   {
@@ -601,7 +599,11 @@
     "apto mascotas":true,
     "descripcion": "Cocina, comedor, living, dormitorio y baño.",
     "imagenes": [
-      "img/prop029/00.jpg"
+      "img/prop029/00.jpg",
+      "img/prop029/01.jpg",
+      "img/prop029/02.jpg",
+      "img/prop029/03.jpg",
+      "img/prop029/04.jpg"
     ]
   },
   {
@@ -642,6 +644,81 @@
     "parrilla cubierta":true,
     "descripcion": "Casa con estar comedor, cocina, 3 dormitorios, lavadero y baño. Patio y cochera. Apto crédito.",
     "imagenes": [
+      "img/prop031/00.jpg",
+      "img/prop031/01.jpg",
+      "img/prop031/02.jpg",
+      "img/prop031/03.jpg",
+      "img/prop031/04.jpg"
+    ]
+  },
+  {
+    "id": 32,
+    "codigo": "00",
+    "titulo": "Departamento complejo España",
+    "operacion": "Venta",
+    "tipo": "Departamento",
+    "precio": "Consultar",
+    "estado": "Disponible",
+    "ubicacion": "España 925",
+    "dormitorios": 2,
+    "banos": 2,
+    "patio":true,
+    "apto credito":true,
+    "apto vivienda":true,
+    "cochera":true,
+    "descripcion": "Departamento en complejo España, con 2 dormitorios y 2 baños. Apto crédito.",
+    "imagenes": [
+      "img/prop032/00.jpg",
+      "img/prop032/01.jpg",
+      "img/prop032/02.jpg",
+      "img/prop032/03.jpg",
+      "img/prop032/04.jpg",
+      "img/prop032/05.jpg",
+      "img/prop032/06.jpg"
+    ]
+  },
+  {
+    "id": 33,
+    "codigo": "00",
+    "titulo": "Departamento Echeverria",
+    "operacion": "Alquiler",
+    "tipo": "Departamento",
+    "precio": "Actualizar",
+    "estado": "alquilada",
+    "ubicacion": "Echeverria 363",
+    "dormitorios": 2,
+    "banos": 1,
+    "patio":true,
+    "apto mascotas":true,
+    "descripcion": "Departamento en Echeverria, con 2 dormitorios y 1 baño. Apto para mascotas.",
+    "imagenes": [
+      "img/prop033/00.jpg",
+      "img/prop033/01.jpg",
+      "img/prop033/02.jpg",
+      "img/prop033/03.jpg",
+      "img/prop033/04.jpg",
+      "img/prop033/05.jpg",
+      "img/prop033/06.jpg"
+    ]
+  },
+  {
+    "id": 34,
+    "codigo": "00",
+    "titulo": "Departamento monoambiente",
+    "operacion": "Alquiler",
+    "tipo": "Departamento",
+    "precio": "Actualizar",
+    "estado": "alquilada",
+    "ubicacion": "Soler 426",
+    "dormitorios": 1,
+    "banos": 1,
+    "descripcion": "Monoabiente muy comodo, de construccion nueva",
+    "imagenes": [
+      "img/prop034/00.jpg",
+      "img/prop034/01.jpg",
+      "img/prop034/02.jpg",
+      "img/prop034/03.jpg",
+      "img/prop034/04.jpg"
     ]
   }
 ]
