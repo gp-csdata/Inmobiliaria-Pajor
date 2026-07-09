@@ -721,5 +721,57 @@
       "img/prop034/03.jpg",
       "img/prop034/04.jpg"
     ]
+  },
+  {
+    "id": 36,
+    "codigo": "00",
+    "titulo": "Casa céntrica",
+    "operacion": "Alquiler",
+    "tipo": "Casa",
+    "precio": "Actualizar",
+    "estado": "Disponible",
+    "ubicacion": "Garibaldi 300",
+    "dormitorios": 0,
+    "banos": 0,
+    "descripcion": "Casa ideal institución. Cuenta con patio central delantero con 6 habitaciones y baños, hall, cocina con depósito e ingreso vehicular pasante. En la parte trasera, seis habitaciones (una con entrepiso), baños, patio amplio con estacionamiento, altillo y zótano.",
+    "imagenes": [
+      "img/prop036/00.jpg"
+    ]
+  },
+  {
+    "id": 37,
+    "codigo": "00",
+    "titulo": "Casa de dos plantas",
+    "operacion": "Alquiler",
+    "tipo": "Casa",
+    "precio": "Actualizar",
+    "estado": "alquilada",
+    "ubicacion": "Soler 268",
+    "dormitorios": 2,
+    "banos": 1,
+    "descripcion": "Casa con estar comedor, cocina comedor, un dormitorio, galeria con parrilla cubierta, lavadero y baño.",
+    "imagenes": [
+      "img/prop037/00.jpg",
+      "img/prop037/01.jpg",
+      "img/prop037/02.jpg",
+      "img/prop037/03.jpg"
+    ]
+  },
+  {
+    "id": 38,
+    "codigo": "00",
+    "titulo": "Loteo Colonial",
+    "operacion": "Venta",
+    "tipo": "Lote",
+    "precio": "entrega 50% + financiación en 24 cuotas-posesión inmediata",
+    "estado": "Disponible",
+    "ubicacion": "Loteo Colonial",
+    "dormitorios": 0,
+    "banos": 0,
+    "descripcion": "Terrenos en desarrollo privado, de varias medidas y ubicaciones disponibles. Cuentan con servicio de red de gas natural, agua potable, sistema de iluminación de calles, cloacas, pavimento en calles principales y forestación.",
+    "imagenes": [
+      "img/prop038/00.jpg",
+      "img/prop038/01.jpg"
+    ]
   }
 ]
