@@ -722,6 +722,27 @@
       "img/prop034/04.jpg"
     ]
   },
+    {
+    "id": 35,
+    "codigo": "00",
+    "titulo": "Departamento céntrico",
+    "operacion": "Alquiler",
+    "tipo": "Departamento",
+    "precio": "Actualizar",
+    "estado": "alquilada",
+    "ubicacion": "Sarmiento 220",
+    "dormitorios": 1,
+    "banos": 1,
+    "descripcion": "Departamento de un dormitorio, con cocina estar, y un baño.",
+    "imagenes": [
+      "img/prop035/00.jpg",
+      "img/prop035/01.jpg",
+      "img/prop035/02.jpg",
+      "img/prop035/03.jpg",
+      "img/prop035/04.jpg",
+      "img/prop035/05.jpg"
+    ]
+  },
   {
     "id": 36,
     "codigo": "00",
