@@ -604,9 +604,14 @@ boton.style.background="#7a7a7a";
 boton.style.cursor="not-allowed";
 boton.style.pointerEvents="none";
 }else{
-const msg=encodeURIComponent(
-`Hola, quisiera recibir información sobre la propiedad código ${prop.codigo}: ${prop.titulo}`
+
+const msg = encodeURIComponent(
+`Hola, quisiera recibir información sobre la siguiente propiedad:
+Código: ${prop.codigo}
+Título: ${prop.titulo}
+Ubicación: ${prop.ubicacion}`
 );
+
 boton.href=
 `https://wa.me/543364599037?text=${msg}`;
 }
