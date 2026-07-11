@@ -15,10 +15,10 @@
     "descripcion": "Departamento con estar comedor, cocina, 2 dormitorios, lavadero y 1 baño.",
     "cocina_separada":true,
     "interno":true,
-    "apto_vivienda":true,
+    "apto vivienda":true,
     "patio":true,
     "balcon":true,
-    "apto_mascotas":true,
+    "apto mascotas":true,
     "imagenes": [
       "img/prop001/00.jpg",
       "img/prop001/01.jpg",
@@ -69,8 +69,8 @@
     "sup_cubierta": "",
     "patio":true,
     "apto credito":true,
-    "apto_vivienda":true,
-    "apto_mascotas":true,
+    "apto vivienda":true,
+    "apto mascotas":true,
     "escriturado":true,
     "cochera":true,
     "arboleda":true,
@@ -107,8 +107,8 @@
     "parrilla":true,
     "laundry":true,
     "apto credito":true,
-    "apto_mascotas":true,
-    "apto_vivienda":true,
+    "apto mascotas":true,
+    "apto vivienda":true,
     "descripcion": "Casa de 3 dormitorios, baño, cocina, estar, comedor, lavadero y paso de auto.",
     "imagenes": [
       "img/prop003/00.jpeg"
@@ -127,7 +127,7 @@
     "banos": 1,
     "frente":true,
     "cocina_separada":true,
-    "apto_vivienda":true,
+    "apto vivienda":true,
     "balcon":true,
     "cochera":true,
     "descripcion": "Departamento con cocina, living, baño, cochera y un dormitorio. Con cochera. Alquiler $550.000 mas impuestos y mas expensas.",
@@ -241,8 +241,8 @@
     "sup_cubierta": "780 m2",
     "frente":true,
     "patio":true,
-    "apto_vivienda":true,
-    "apto_mascotas":true,
+    "apto vivienda":true,
+    "apto mascotas":true,
     "descripcion": "Casa con estar comedor, cocina comedor, 3 dormitorios, patio cerrado y patio abierto, lavadero y 2 baños.",
     "imagenes": [
       "img/prop010/00.JPG"
@@ -284,7 +284,7 @@
     "banos": 1,
     "cochera":true,
     "escriturado":true,
-    "apto_vivienda":true,
+    "apto vivienda":true,
     "descripcion": "Departamento centrico de un dormitorio, baño, cocina y living. Sin cochera.",
     "imagenes": [
     "img/prop014/00.jpg",
@@ -463,8 +463,8 @@
     "cocina separada":true,
     "laundry":true,
     "patio":true,
-    "apto_vivienda":true,
-    "apto_mascotas":true,
+    "apto vivienda":true,
+    "apto mascotas":true,
     "descripcion": "Casa con estar comedor, cocina comedor, 3 dormitorios, patio cerrado y patio abierto, lavadero y 2 baños.",
     "imagenes": [
       "img/prop010/00.JPG"
@@ -713,7 +713,7 @@
     "ubicacion": "Soler 426",
     "dormitorios": 1,
     "banos": 1,
-    "descripcion": "Monoabiente muy comodo, de construccion nueva",
+    "descripcion": "Monoabiente muy comodo, de construccion nueva.",
     "imagenes": [
       "img/prop034/00.jpg",
       "img/prop034/01.jpg",
@@ -733,6 +733,9 @@
     "ubicacion": "Sarmiento 220",
     "dormitorios": 1,
     "banos": 1,
+    "patio":true,
+    "apto vivienda":true,
+    "apto profesional":true,
     "descripcion": "Departamento de un dormitorio, con cocina estar, y un baño.",
     "imagenes": [
       "img/prop035/00.jpg",
@@ -754,6 +757,10 @@
     "ubicacion": "Garibaldi 300",
     "dormitorios": 0,
     "banos": 0,
+    "patio":true,
+    "edificio administracion":true,
+    "espacio para auto":true,
+    "galeria":true,
     "descripcion": "Casa ideal institución. Cuenta con patio central delantero con 6 habitaciones y baños, hall, cocina con depósito e ingreso vehicular pasante. En la parte trasera, seis habitaciones (una con entrepiso), baños, patio amplio con estacionamiento, altillo y zótano.",
     "imagenes": [
       "img/prop036/00.jpg"
@@ -789,6 +796,11 @@
     "ubicacion": "Loteo Colonial",
     "dormitorios": 0,
     "banos": 0,
+    "red gas":true,
+    "red electrica":true,
+    "pavimento":true,
+    "apto vivienda":true,
+    "apto comercial":true,
     "descripcion": "Terrenos en desarrollo privado, de varias medidas y ubicaciones disponibles. Cuentan con servicio de red de gas natural, agua potable, sistema de iluminación de calles, cloacas, pavimento en calles principales y forestación.",
     "imagenes": [
       "img/prop038/00.jpg",
