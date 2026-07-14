@@ -20,18 +20,18 @@
     "balcon":true,
     "apto mascotas":true,
     "imagenes": [
-      "img/prop001/00.jpg",
-      "img/prop001/01.jpg",
-      "img/prop001/02.jpg",
-      "img/prop001/03.jpg",
-      "img/prop001/04.jpg",
-      "img/prop001/05.jpg",
-      "img/prop001/06.jpg",
-      "img/prop001/07.jpg",
-      "img/prop001/08.jpg",
-      "img/prop001/09.jpg",
-      "img/prop001/10.jpg",
-      "img/prop001/11.jpg"
+      "img/prop001/00-logo.jpg",
+      "img/prop001/01-logo.jpg",
+      "img/prop001/02-logo.jpg",
+      "img/prop001/03-logo.jpg",
+      "img/prop001/04-logo.jpg",
+      "img/prop001/05-logo.jpg",
+      "img/prop001/06-logo.jpg",
+      "img/prop001/07-logo.jpg",
+      "img/prop001/08-logo.jpg",
+      "img/prop001/09-logo.jpg",
+      "img/prop001/10-logo.jpg",
+      "img/prop001/11-logo.jpg"
     ]
   },
   {
@@ -270,7 +270,7 @@
     "quincho":true,
     "descripcion": "Casa con estar comedor, cocina, 3 dormitorios, lavadero y baño. Patio y cochera, amplio quincho con parrillero cubierto y baño de servicio. Apto crédito.",
     "imagenes": [
-      "img/prop012/00.jpeg"
+      "img/prop012/00-logo.jpg"
     ]
   },
   {
@@ -316,21 +316,21 @@
     "laundry":true,
     "descripcion": "Cocina con espacio para lavarropas, living, comedor y 2 dormitorios.",
     "imagenes": [
-      "img/prop015/00.jpeg",
-      "img/prop015/01.jpeg",
-      "img/prop015/02.jpeg",
-      "img/prop015/03.jpeg",
-      "img/prop015/04.jpeg",
-      "img/prop015/05.jpeg",
-      "img/prop015/06.jpeg",
+      "img/prop015/00-logo.jpg",
+      "img/prop015/01-logo.jpg",
+      "img/prop015/02-logo.jpg",
+      "img/prop015/03-logo.jpg",
+      "img/prop015/04-logo.jpg",
+      "img/prop015/05-logo.jpg",
+      "img/prop015/06-logo.jpg",
       "img/prop015/07.jpeg",
-      "img/prop015/08.jpeg",
-      "img/prop015/09.jpeg",
-      "img/prop015/10.jpeg",
-      "img/prop015/11.jpeg",
-      "img/prop015/12.jpeg",
-      "img/prop015/13.jpeg",
-      "img/prop015/14.jpeg"
+      "img/prop015/08-logo.jpg",
+      "img/prop015/09-logo.jpg",
+      "img/prop015/10-logo.jpg",
+      "img/prop015/11-logo.jpg",
+      "img/prop015/12-logo.jpg",
+      "img/prop015/13-logo.jpg",
+      "img/prop015/14-logo.jpg"
     ]
   },
   {
@@ -768,7 +768,12 @@
     "galeria":true,
     "descripcion": "Casa ideal institución. Cuenta con patio central delantero con 6 habitaciones y baños, hall, cocina con depósito e ingreso vehicular pasante. En la parte trasera, seis habitaciones (una con entrepiso), baños, patio amplio con estacionamiento, altillo y zótano.",
     "imagenes": [
-      "img/prop036/00.jpg"
+      "img/prop036/00.jpg",
+      "img/prop036/01-logo.jpg",
+      "img/prop036/02-logo.jpg",
+      "img/prop036/03-logo.jpg",
+      "img/prop036/04-logo.jpg",
+      "img/prop036/05-logo.jpg"
     ]
   },
   {
