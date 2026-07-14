@@ -255,7 +255,7 @@
       "img/prop008/02-logo.jpg",
       "img/prop008/03-logo.jpg",
       "img/prop008/04-logo.jpg",
-      "img/prop008/05-logo.jpg",
+      "img/prop008/05.jpg",
       "img/prop008/06-logo.jpg",
       "img/prop008/07-logo.jpg",
       "img/prop008/08-logo.jpg"
@@ -413,18 +413,18 @@
     "pileta":true,
     "descripcion": "Cocina, living, comedor y baño, con cochera para 2 autos.",
     "imagenes": [
-      "img/prop017/00.jpg",
-      "img/prop017/01.jpg",
-      "img/prop017/02.jpg",
-      "img/prop017/03.jpg",
-      "img/prop017/04.jpg",
-      "img/prop017/05.jpg",
-      "img/prop017/06.jpg",
-      "img/prop017/07.jpg",
-      "img/prop017/08.jpg",
-      "img/prop017/09.jpg",
-      "img/prop017/10.jpg",
-      "img/prop017/11.jpg"
+      "img/prop017/00-logo.jpg",
+      "img/prop017/01-logo.jpg",
+      "img/prop017/02-logo.jpg",
+      "img/prop017/03-logo.jpg",
+      "img/prop017/04-logo.jpg",
+      "img/prop017/05-logo.jpg",
+      "img/prop017/06-logo.jpg",
+      "img/prop017/07-logo.jpg",
+      "img/prop017/08-logo.jpg",
+      "img/prop017/09-logo.jpg",
+      "img/prop017/10-logo.jpg",
+      "img/prop017/11-logo.jpg"
     ]
   },
   {
@@ -705,13 +705,13 @@
     "cochera":true,
     "descripcion": "Departamento en complejo España, con 2 dormitorios y 2 baños. Apto crédito.",
     "imagenes": [
-      "img/prop032/00.jpg",
-      "img/prop032/01.jpg",
-      "img/prop032/02.jpg",
-      "img/prop032/03.jpg",
-      "img/prop032/04.jpg",
-      "img/prop032/05.jpg",
-      "img/prop032/06.jpg"
+      "img/prop032/00-logo.jpg",
+      "img/prop032/01-logo.jpg",
+      "img/prop032/02-logo.jpg",
+      "img/prop032/03-logo.jpg",
+      "img/prop032/04-logo.jpg",
+      "img/prop032/05-logo.jpg",
+      "img/prop032/06-logo.jpg"
     ]
   },
   {
