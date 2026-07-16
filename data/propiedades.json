@@ -258,7 +258,8 @@
       "img/prop008/05.jpg",
       "img/prop008/06-logo.jpg",
       "img/prop008/07-logo.jpg",
-      "img/prop008/08-logo.jpg"
+      "img/prop008/08-logo.jpg",
+      "img/prop008/09-logo.jpg"
     ]
   },
   {
@@ -703,10 +704,9 @@
     "dormitorios": 2,
     "baños": 2,
     "patio":true,
-    "apto credito":true,
     "apto vivienda":true,
     "cochera":true,
-    "descripcion": "Departamento en complejo España, con 2 dormitorios y 2 baños. Apto crédito.",
+    "descripcion": "Departamento en complejo España, con 2 dormitorios y 2 baños.",
     "imagenes": [
       "img/prop032/00-logo.jpg",
       "img/prop032/01-logo.jpg",
@@ -849,8 +849,8 @@
     "apto comercial":true,
     "descripcion": "Terrenos en desarrollo privado, de varias medidas y ubicaciones disponibles. Cuentan con servicio de red de gas natural, agua potable, sistema de iluminación de calles, cloacas, pavimento en calles principales y forestación.",
     "imagenes": [
-      "img/prop038/00.jpg",
-      "img/prop038/01.jpg"
+      "img/prop038/00-logo.jpg",
+      "img/prop038/01-logo.jpg"
     ]
   }
 ]
