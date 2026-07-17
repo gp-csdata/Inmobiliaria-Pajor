@@ -489,6 +489,27 @@
     ]
   },
   {
+    "id": 22,
+    "codigo": "06022",
+    "titulo": "Quinta barrio Autopista",
+    "operacion": "Venta",
+    "tipo": "Quinta",
+    "precio": "Consultar",
+    "estado": "disponible",
+    "ubicacion": "calle Lezica",
+    "dormitorios": 1,
+    "baños": 1,
+    "patio":true,
+    "espacio para auto":true,
+    "apto mascotas":true,
+    "descripcion": "Cocina, comedor, living y gran patio.",
+    "imagenes": [
+      "img/prop022/00-logo.jpg",
+      "img/prop022/01-logo.jpg",
+      "img/prop022/02-logo.jpg"
+    ]
+  },
+  {
     "id": 23,
     "codigo": "06023",
     "titulo": "Casa con patio",
