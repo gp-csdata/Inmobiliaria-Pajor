@@ -614,11 +614,12 @@
     "apto mascotas":true,
     "descripcion": "Casa en esquina con cocina, comedor, living, dos dormitorios, patio y cochera.",
     "imagenes": [
-      "img/prop027/00.jpg",
-      "img/prop027/01.jpg",
-      "img/prop027/02.jpg",
-      "img/prop027/03.jpg",
-      "img/prop027/04.jpg"
+      "img/prop027/00-logo.jpg",
+      "img/prop027/01-logo.jpg",
+      "img/prop027/02-logo.jpg",
+      "img/prop027/03-logo.jpg",
+      "img/prop027/04-logo.jpg",
+      "img/prop027/placa.jpg"
     ]
   },
   {
@@ -661,11 +662,11 @@
     "apto mascotas":true,
     "descripcion": "Cocina, comedor, living, dormitorio y baño.",
     "imagenes": [
-      "img/prop029/00.jpg",
-      "img/prop029/01.jpg",
-      "img/prop029/02.jpg",
-      "img/prop029/03.jpg",
-      "img/prop029/04.jpg"
+      "img/prop029/00-logo.jpg",
+      "img/prop029/01-logo.jpg",
+      "img/prop029/02-logo.jpg",
+      "img/prop029/03-logo.jpg",
+      "img/prop029/04-logo.jpg"
     ]
   },
   {
@@ -727,11 +728,12 @@
     "parrilla cubierta":true,
     "descripcion": "Casa con estar comedor, cocina, 3 dormitorios, lavadero y baño. Patio y cochera. Apto crédito.",
     "imagenes": [
-      "img/prop031/00.jpg",
-      "img/prop031/01.jpg",
-      "img/prop031/02.jpg",
-      "img/prop031/03.jpg",
-      "img/prop031/04.jpg"
+      "img/prop031/00-logo.jpg",
+      "img/prop031/01-logo.jpg",
+      "img/prop031/02-logo.jpg",
+      "img/prop031/03-logo.jpg",
+      "img/prop031/04-logo.jpg",
+      "img/prop031/placa.jpg"
     ]
   },
   {
@@ -756,7 +758,8 @@
       "img/prop032/03-logo.jpg",
       "img/prop032/04-logo.jpg",
       "img/prop032/05-logo.jpg",
-      "img/prop032/06-logo.jpg"
+      "img/prop032/06-logo.jpg",
+      "img/prop032/placa.jpg"
     ]
   },
   {
