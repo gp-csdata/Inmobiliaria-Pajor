@@ -134,10 +134,10 @@
     "cochera":true,
     "descripcion": "Departamento con cocina, living, baño, cochera y un dormitorio. Con cochera. Alquiler $550.000 mas impuestos y mas expensas.",
     "imagenes": [
-      "img/prop004/00.jpeg",
-      "img/prop004/01.jpeg",
-      "img/prop004/02.jpeg",
-      "img/prop004/03.jpeg"
+      "img/prop004/00-logo.jpg",
+      "img/prop004/01-logo.jpg",
+      "img/prop004/02-logo.jpg",
+      "img/prop004/03-logo.jpg"
     ]
   },
   {
@@ -777,13 +777,14 @@
     "apto mascotas":true,
     "descripcion": "Departamento en Echeverria, con 2 dormitorios y 1 baño. Apto para mascotas.",
     "imagenes": [
-      "img/prop033/00.jpg",
-      "img/prop033/01.jpg",
-      "img/prop033/02.jpg",
-      "img/prop033/03.jpg",
-      "img/prop033/04.jpg",
-      "img/prop033/05.jpg",
-      "img/prop033/06.jpg"
+      "img/prop033/00-logo.jpg",
+      "img/prop033/01-logo.jpg",
+      "img/prop033/02-logo.jpg",
+      "img/prop033/03-logo.jpg",
+      "img/prop033/04-logo.jpg",
+      "img/prop033/05-logo.jpg",
+      "img/prop033/06-logo.jpg",
+      "img/prop033/placa.jpg"
     ]
   },
   {
@@ -799,11 +800,11 @@
     "baños": 1,
     "descripcion": "Monoabiente muy comodo, de construccion nueva.",
     "imagenes": [
-      "img/prop034/00.jpg",
-      "img/prop034/01.jpg",
-      "img/prop034/02.jpg",
-      "img/prop034/03.jpg",
-      "img/prop034/04.jpg"
+      "img/prop034/00-logo.jpg",
+      "img/prop034/01-logo.jpg",
+      "img/prop034/02-logo.jpg",
+      "img/prop034/03-logo.jpg",
+      "img/prop034/04-logo.jpg"
     ]
   },
     {
@@ -822,14 +823,14 @@
     "apto profesional":true,
     "descripcion": "Departamento de un dormitorio, con cocina estar, y un baño.",
     "imagenes": [
-      "img/prop035/00.jpg",
-      "img/prop035/01.jpg",
-      "img/prop035/02.jpg",
-      "img/prop035/03.jpg",
-      "img/prop035/04.jpg",
-      "img/prop035/05.jpg",
-      "img/prop035/06.jpg",
-      "img/prop035/07.jpg"      
+      "img/prop035/00-logo.jpg",
+      "img/prop035/01-logo.jpg",
+      "img/prop035/02-logo.jpg",
+      "img/prop035/03-logo.jpg",
+      "img/prop035/04-logo.jpg",
+      "img/prop035/05-logo.jpg",
+      "img/prop035/06-logo.jpg",
+      "img/prop035/07-logo.jpg"      
     ]
   },
   {
@@ -870,10 +871,10 @@
     "baños": 1,
     "descripcion": "Casa con estar comedor, cocina comedor, un dormitorio, galeria con parrilla cubierta, lavadero y baño.",
     "imagenes": [
-      "img/prop037/00.jpg",
-      "img/prop037/01.jpg",
-      "img/prop037/02.jpg",
-      "img/prop037/03.jpg"
+      "img/prop037/00-logo.jpg",
+      "img/prop037/01-logo.jpg",
+      "img/prop037/02-logo.jpg",
+      "img/prop037/03-logo.jpg"
     ]
   },
   {
