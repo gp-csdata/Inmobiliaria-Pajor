@@ -405,7 +405,7 @@
     "operacion": "Alquiler",
     "tipo": "Casa",
     "precio": "$ 650.000 mas impuestos.",
-    "estado": "disponible",
+    "estado": "alquilada",
     "ubicacion": "Barrio Alcoholera",
     "dormitorios": 3,
     "baños": 1,
