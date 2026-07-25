@@ -446,7 +446,19 @@
     "apto mascotas":true,
     "descripcion": "Cocina, comedor, living y espacio de guardado.",
     "imagenes": [
-      "img/prop018/00.jpg"
+      "img/prop018/00-logo.jpg",
+      "img/prop018/01-logo.jpg",
+      "img/prop018/02-logo.jpg",
+      "img/prop018/03-logo.jpg",
+      "img/prop018/04-logo.jpg",
+      "img/prop018/05-logo.jpg",
+      "img/prop018/06-logo.jpg",
+      "img/prop018/07-logo.jpg",
+      "img/prop018/08-logo.jpg",
+      "img/prop018/09-logo.jpg",
+      "img/prop018/10-logo.jpg",
+      "img/prop018/pb.mp4",
+      "img/prop018/pa.mp4"
     ]
   },
   {
