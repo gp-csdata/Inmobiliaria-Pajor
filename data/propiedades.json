@@ -334,10 +334,10 @@
     "id": 15,
     "codigo": "02015",
     "titulo": "Departamento a estrenar-Villa Ramallo",
-    "operacion": "Alquiler",
+    "operacion": "Venta",
     "tipo": "Departamento",
     "destacada":true,
-    "precio": "$ 550.000",
+    "precio": "Consultar",
     "estado": "disponible",
     "ubicacion": "Ing.Iribas 1154",
     "dormitorios": 2,
@@ -357,14 +357,15 @@
       "img/prop015/04-logo.jpg",
       "img/prop015/05-logo.jpg",
       "img/prop015/06-logo.jpg",
-      "img/prop015/07.jpeg",
+      "img/prop015/07-logo.jpg",
       "img/prop015/08-logo.jpg",
       "img/prop015/09-logo.jpg",
       "img/prop015/10-logo.jpg",
       "img/prop015/11-logo.jpg",
       "img/prop015/12-logo.jpg",
       "img/prop015/13-logo.jpg",
-      "img/prop015/14-logo.jpg"
+      "img/prop015/14-logo.jpg",
+      "img/prop015/video.mp4"
     ]
   },
   {
