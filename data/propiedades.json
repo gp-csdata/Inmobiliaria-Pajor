@@ -479,6 +479,22 @@
       "img/prop019/02-logo.jpg"
     ]
   },
+    {
+    "id": 20,
+    "codigo": "06020",
+    "titulo": "Galpon centrico apto emprendimiento",
+    "operacion": "Alquiler",
+    "tipo": "Galpon",
+    "precio": "$ 500.000",
+    "estado": "disponible",
+    "ubicacion": "Balcarce y J B Justo",
+    "apto comercial":true,
+    "depósito":true,
+    "descripcion": "Galpón en esquina, apto para emprendimiento.",
+    "imagenes": [
+      "img/prop020/00-logo.jpg"
+    ]
+  },
   {
     "id": 21,
     "codigo": "02021",
