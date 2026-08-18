@@ -481,10 +481,10 @@
   },
     {
     "id": 20,
-    "codigo": "06020",
+    "codigo": "02020",
     "titulo": "Galpon centrico apto emprendimiento",
     "operacion": "Alquiler",
-    "tipo": "Galpon",
+    "tipo": "Comercial",
     "precio": "$ 500.000",
     "estado": "disponible",
     "ubicacion": "Balcarce y J B Justo",
@@ -500,7 +500,6 @@
     "codigo": "02021",
     "titulo": "Casa con patio",
     "operacion": "Alquiler",
-    
     "tipo": "Casa",
     "precio": "Consultar",
     "estado": "alquilada",
