@@ -500,6 +500,7 @@
     "codigo": "02021",
     "titulo": "Casa con patio",
     "operacion": "Alquiler",
+    
     "tipo": "Casa",
     "precio": "Consultar",
     "estado": "alquilada",
