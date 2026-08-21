@@ -488,9 +488,10 @@
     "precio": "$ 500.000",
     "estado": "disponible",
     "ubicacion": "Balcarce y J B Justo",
+    "baños": 1,
     "apto comercial":true,
     "depósito":true,
-    "descripcion": "Galpón en esquina, apto para emprendimiento.",
+    "descripcion": "Galpón en esquina doble portón, apto para emprendimiento.",
     "imagenes": [
       "img/prop020/00-logo.jpg",
       "img/prop020/01-logo.jpg"
