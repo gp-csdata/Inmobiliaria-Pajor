@@ -97,7 +97,6 @@
     "operacion": "Venta",
     "tipo": "Casa",
     "precio": "U$D 140.000",
-    "destacada":true,
     "estado": "disponible",
     "ubicacion": "Barrio Super Usina",
     "dormitorios": 3,
@@ -260,6 +259,32 @@
       "img/prop008/07-logo.jpg",
       "img/prop008/08-logo.jpg",
       "img/prop008/09-logo.jpg"
+    ]
+  },
+    {
+    "id": 9,
+    "codigo": "02003",
+    "titulo": "Casa Super Usina",
+    "operacion": "Alquiler",
+    "tipo": "Casa",
+    "precio": "Consultar",
+    "destacada":true,
+    "estado": "disponible",
+    "ubicacion": "Barrio Super Usina",
+    "dormitorios": 3,
+    "baños": 1,
+    "cocina_separada":true,
+    "espacio para auto":true,
+    "patio": true,
+    "escriturado":true,
+    "parrilla":true,
+    "laundry":true,
+    "apto credito":true,
+    "apto mascotas":true,
+    "apto vivienda":true,
+    "descripcion": "Casa de 3 dormitorios, baño, cocina, estar, comedor, lavadero y paso de auto.",
+    "imagenes": [
+      "img/prop003/00-logo.jpg"
     ]
   },
   {
