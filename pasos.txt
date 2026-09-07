@@ -1,0 +1,7 @@
+git status
+git add .
+git commit -m "update: propiedades"
+git push origin main
+
+git pull origin main --rebase
+git push origin main
