@@ -310,6 +310,37 @@
       "img/prop010/00.JPG"
     ]
   },
+    {
+    "id": 11,
+    "codigo": "02009",
+    "titulo": "Departamento interno",
+    "operacion": "Alquiler",
+    "tipo": "Departamento",
+    "precio": "$ 400.000",
+    "estado": "disponible",
+    "ubicacion": "Maipu 388",
+    "dormitorios": 1,
+    "baños": 1,
+    "sup_total": " m2",
+    "sup_cubierta": " m2",
+    "de pasillo":true,
+    "patio":true,
+    "apto vivienda":true,
+    "apto mascotas":true,
+    "descripcion": "Departamento 1 habitacion, living, cocina, baño con lavadero y patio con parrillero.",
+    "imagenes": [
+      "img/prop009/00.jpeg",
+      "img/prop009/01.jpeg",
+      "img/prop009/02.jpeg",
+      "img/prop009/03.jpeg",
+      "img/prop009/04.jpeg",
+      "img/prop009/05.jpeg",
+      "img/prop009/06.jpeg",
+      "img/prop009/07.jpeg",
+      "img/prop009/08.jpeg",
+      "img/prop009/09.jpeg"
+    ]
+  },
   {
     "id": 12,
     "codigo": "06012",
