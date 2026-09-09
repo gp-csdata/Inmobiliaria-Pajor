@@ -491,7 +491,7 @@
     "operacion": "Alquiler",
     "tipo": "Departamento",
     "precio": "$ 550.000 mas impuestos y expensas",
-    "estado": "disponible",
+    "estado": "alquilada",
     "ubicacion": "San Jose 320",
     "dormitorios": 2,
     "baños": 2,
