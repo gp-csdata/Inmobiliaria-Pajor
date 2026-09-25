@@ -380,7 +380,7 @@
     "apto vivienda":true,
     "descripcion": "Departamento centrico de un dormitorio, baño, cocina y living. Sin cochera.",
     "imagenes": [
-    "img/prop014/00-logo-v.jpg",
+    "img/prop014/00-logo.jpg",
     "img/prop014/01-logo.jpg",
     "img/prop014/02-logo.jpg",
     "img/prop014/03-logo.jpg",
@@ -834,7 +834,6 @@
     "parrilla cubierta":true,
     "descripcion": "Casa con estar comedor, cocina, 3 dormitorios, lavadero y baño. Patio y cochera. Apto crédito.",
     "imagenes": [
-      "img/prop031/00-logo-v.jpg",
       "img/prop031/00-logo.jpg",
       "img/prop031/01-logo.jpg",
       "img/prop031/02-logo.jpg",
