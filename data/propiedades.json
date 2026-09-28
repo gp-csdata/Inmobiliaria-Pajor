@@ -680,7 +680,7 @@
     "operacion": "Alquiler",
     "tipo": "Departamento",
     "precio": "$ 380.000",
-    "estado": "alquilada",
+    "estado": "disponible",
     "ubicacion": "San Lorenzo 615",
     "dormitorios": 1,
     "baños": 1,
