@@ -911,7 +911,7 @@
     "operacion": "Alquiler",
     "tipo": "Departamento",
     "precio": "Actualizar",
-    "estado": "alquilada",
+    "estado": "disponible",
     "ubicacion": "Echeverria 363",
     "dormitorios": 2,
     "baños": 1,
