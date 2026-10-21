@@ -744,7 +744,7 @@
     "titulo": "Casa Balcarce y M.Benitez",
     "operacion": "Venta",
     "tipo": "Casa",
-    "precio": "U$D 70.000",
+    "precio": "U$D 65.000",
     "estado": "disponible",
     "ubicacion": "Balcarce 1441",
     "dormitorios": 2,
@@ -757,6 +757,7 @@
     "apto mascotas":true,
     "descripcion": "Casa en esquina con cocina, comedor, living, dos dormitorios, patio y cochera.",
     "imagenes": [
+      "img/prop027/00-logo2.gif",
       "img/prop027/00-logo.jpg",
       "img/prop027/01-logo.jpg",
       "img/prop027/02-logo.jpg",
