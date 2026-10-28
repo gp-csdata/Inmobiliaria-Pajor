@@ -1042,5 +1042,33 @@
       "img/prop038/00-logo.jpg",
       "img/prop038/01-logo.jpg"
     ]
+  },
+  {
+    "id": 40,
+    "codigo": "02040",
+    "titulo": "Departamento centrico amueblado",
+    "operacion": "Alquiler",
+    "tipo": "Departamento",
+    "precio": "$580.000 mas impuestos y expensas",
+    "estado": "disponible",
+    "ubicacion": "España 228",
+    "dormitorios": 1,
+    "baños": 1,
+    "balcon corrido":true,
+    "balcon con cerramiento":true,
+    "ventilacion cruzada":true,
+    "lavadero":true,
+    "descripcion": "Departamento 1 habitación, baño, cocina, lavadero y balcones. Amueblado y equipado completo: mesa con seis sillas, sillón, calefactor en living y en dormitorio, heladera y termotanque.",
+    "imagenes": [
+      "img/prop040/1.jpeg",
+      "img/prop040/2.jpeg",
+      "img/prop040/3.jpeg",
+      "img/prop040/4.jpeg",
+      "img/prop040/5.jpeg",
+      "img/prop040/6.jpeg",
+      "img/prop040/7.jpeg",
+      "img/prop040/8.jpeg",
+      "img/prop040/9-video.mp4"
+    ]
   }
 ]
