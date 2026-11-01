@@ -5,3 +5,6 @@ git push origin main
 
 git pull origin main --rebase
 git push origin main
+
+
+Departamento 1 habitación, baño, cocina, lavadero y balcones. Amueblado y equipado completo: mesa con seis sillas, sillón, calefactor en living y en dormitorio, aire acondicionado en dormitorio, heladera y termotanque.
