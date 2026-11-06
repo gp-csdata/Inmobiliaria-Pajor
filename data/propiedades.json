@@ -363,6 +363,28 @@
     ]
   },
   {
+    "id": 12,
+    "codigo": "02012",
+    "titulo": "Casa barrio Los Fresnos",
+    "operacion": "Alquiler",
+    "tipo": "Casa",
+    "precio": "$800.000 mas impuestos",
+    "estado": "disponible",
+    "ubicacion": "Pombo 273",
+    "dormitorios": 3,
+    "baños": 2,
+    "apto vivienda":true,
+    "cochera":true,
+    "cocina separada":true,
+    "galeria":true,
+    "parrilla cubierta":true,
+    "quincho":true,
+    "descripcion": "Casa con estar comedor, cocina, 3 dormitorios, lavadero y baño. Patio y cochera, amplio quincho con parrillero cubierto y baño de servicio. Apto crédito.",
+    "imagenes": [
+      "img/prop012/00-logo.jpg"
+    ]
+  },
+  {
     "id": 14,
     "codigo": "06014",
     "titulo": "Departamento centrico",
@@ -703,6 +725,29 @@
     "tipo": "Casa",
     "precio": "Actualizar",
     "estado": "alquilada",
+    "ubicacion": "Paraná 83",
+    "dormitorios": 2,
+    "baños": 2,
+    "cochera":true,
+    "patio":true,
+    "cocina separada":true,
+    "parrilla":true,
+    "apto mascotas":true,
+    "descripcion": "Cocina comedor, living y dos dormitorios. Cochera, patio grande con parrilla y galeria, galpón para espacion de guardado.",
+    "imagenes": [
+      "img/prop025/00-logo.jpg",
+      "img/prop025/01-logo.jpg",
+      "img/prop025/02-logo.jpg"
+    ]
+  },
+  {
+    "id": 25,
+    "codigo": "06025",
+    "titulo": "Casa con patio",
+    "operacion": "Venta",
+    "tipo": "Casa",
+    "precio": "Consultar",
+    "estado": "disponible",
     "ubicacion": "Paraná 83",
     "dormitorios": 2,
     "baños": 2,
